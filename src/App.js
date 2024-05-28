@@ -1,4 +1,5 @@
 import React from "react"
+import "./App.css"
 
 const App = () => {
 
@@ -50,11 +51,11 @@ const App = () => {
   return (
     <>
       <div id="header">
-        <p>ToDo List</p>
+        <p id="header-text">TODOLIST</p>
       </div>
       <div id="body">
         <div class="container">
-          <h3>ToDo List</h3>
+          <h3>Todolist</h3>
           <div id="main" class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div id="add" class="text-center">
